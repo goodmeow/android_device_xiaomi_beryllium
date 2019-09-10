@@ -13,5 +13,10 @@
     "repository": "crdroidandroid/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "repository": "9.0-beryllium"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
   }
 ]

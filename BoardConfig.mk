@@ -27,7 +27,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CLANG_VERSION := 9.0.5
 
 # HIDL
@@ -43,7 +43,7 @@ TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
 #RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-TARGET_RIL_VARIANT := caf
+#TARGET_RIL_VARIANT := caf
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom

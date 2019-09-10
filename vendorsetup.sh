@@ -1,0 +1,3 @@
+add_lunch_combo syberia_beryllium-userdebug
+add_lunch_combo syberia_beryllium-eng
+add_lunch_combo syberia_beryllium-user

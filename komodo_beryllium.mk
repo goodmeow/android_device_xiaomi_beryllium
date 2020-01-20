@@ -8,10 +8,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common KomodoDragon stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-#TARGET_BOOT_ANIMATION_RES_EVO := true
-#TARGET_GAPPS_ARCH := arm64
-CUSTOM_BUILD_TYPE := TEST
-#TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
@@ -31,5 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
-#    ro.build.fingerprint=Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys
+    ro.build.fingerprint=Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys

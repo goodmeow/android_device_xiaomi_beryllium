@@ -20,6 +20,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.komodo.maintainer=ʍoǝɯpooɓ
+
 BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.4.0.QEJMIXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

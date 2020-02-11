@@ -9,8 +9,9 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common KomodoOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
-CURRENT_BUILD_TYPE :=gapps
-TARGET_GAPPS_ARCH :=arm64
+KOMODO_BUILD_TYPE := OFFICIAL
+# CURRENT_BUILD_TYPE :=gapps
+# TARGET_GAPPS_ARCH :=arm64
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.

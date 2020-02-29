@@ -10,5 +10,11 @@
     "repository": "goodmeow/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "ten-1"
-  }
+  },
+  {
+   "remote": "github",
+   "repository": "Havoc-OS/packages_apps_Dirac",
+   "target_path": "packages/apps/Dirac",
+   "branch": "pie"
+  },
 ]

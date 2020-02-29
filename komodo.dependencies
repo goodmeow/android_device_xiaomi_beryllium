@@ -17,4 +17,10 @@
    "target_path": "packages/apps/Dirac",
    "branch": "pie"
   },
+  {
+   "remote": "github",
+   "repository": "GZR-Kernels/Optimus_Drunk_Beryllium",
+   "target_path": "kernel/xiaomi/beryllium",
+   "branch": "10.0"
+  }
 ]

@@ -15,7 +15,7 @@
    "remote": "github",
    "repository": "Havoc-OS/android_packages_apps_Dirac",
    "target_path": "packages/apps/Dirac",
-   "branch": "pie"
+   "branch": "ten"
   },
   {
    "remote": "github",

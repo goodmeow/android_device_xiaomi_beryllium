@@ -28,6 +28,7 @@ TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DRM_PP := true
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 # HIDL

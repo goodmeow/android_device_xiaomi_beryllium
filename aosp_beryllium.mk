@@ -24,10 +24,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PROPERTY_OVERRIDES += \
     org.aosp.maintainer=ʍoǝɯpooɓ
 
-BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.4.0.QEJMIXM:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.6.0.QEJMIXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V11.0.4.0.QEJMIXM release-keys" \
+    PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V11.0.6.0.QEJMIXM release-keys" \
     PRODUCT_NAME="beryllium" \
     TARGET_DEVICE="beryllium"
 

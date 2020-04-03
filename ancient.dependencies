@@ -7,12 +7,6 @@
   },
   {
     "remote": "github",
-    "repository": "PainKiller3/vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch": "ten"
-  },
-  {
-    "remote": "github",
     "repository": "gzR-Kernels/Optimus_Drunk_Beryllium",
     "target_path": "kernel/xiaomi/sdm845",
     "branch": "10.0"

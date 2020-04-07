@@ -1,14 +1,26 @@
 [
   {
     "remote": "github",
-    "repository": "PainKiller3/device_xiaomi_sdm845-common",
+    "repository": "ancient-devices/device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "ten"
+    "branch": "ancient-q"
   },
   {
     "remote": "github",
     "repository": "gzR-Kernels/Optimus_Drunk_Beryllium",
     "target_path": "kernel/xiaomi/sdm845",
     "branch": "10.0"
-  }
+  },
+  {
+    "remote": "github",
+    "repository": "ancient-devices/vendor_xiaomi_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch": "ancient-q"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "goodmeow/vendor_xiaomi_firmware",
+    "target_path": "vendor/xiaomi/firmware",
+    "branch": "ten"
+   }
 ]

@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := beryllium
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
+# Camera
+TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
@@ -26,7 +29,6 @@ BOARD_HAVE_QCOM_FM := true
 TARGET_HAS_HDR_DISPLAY := true
 TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DRM_PP := true
-TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
@@ -37,6 +39,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom

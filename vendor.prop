@@ -1,0 +1,16 @@
+# Display postprocessing
+persist.ppd.fde.config=0
+vendor.display.enable_default_color_mode=1
+
+# Fingerprint
+ro.hardware.fp.fpc=true
+ro.hardware.fp.goodix=true
+
+# FM
+vendor.hw.fm.init=0
+
+# USB debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1

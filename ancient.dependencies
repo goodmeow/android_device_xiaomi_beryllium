@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "ancient-devices/device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "ancient-q"
+    "branch": "ten"
   },
   {
     "remote": "github",

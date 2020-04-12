@@ -21,7 +21,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.4.0.QEJMIXM:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V11.0.4.0.QEJMIXM release-keys" \

@@ -9,7 +9,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common aosp stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
-CUSTOM_BUILD_TYPE := NotreDame
+CUSTOM_BUILD_TYPE := LaBelleÉpoque
 CURRENT_BUILD_TYPE :=gapps
 TARGET_GAPPS_ARCH :=arm64
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)

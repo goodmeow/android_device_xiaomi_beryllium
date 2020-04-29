@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "goodmeow/vendor_xiaomi",
+    "repository": "gmw-project/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "ten-1"
+    "branch": "ten"
   },
   {
    "remote": "github",

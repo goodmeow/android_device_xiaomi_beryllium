@@ -15,7 +15,7 @@
     "remote": "github",
     "repository": "ancient-devices/vendor_xiaomi_beryllium",
     "target_path": "vendor/xiaomi/beryllium",
-    "branch": "ancient-q"
+    "branch": "ten"
   },
   {
     "remote": "gitlab",

@@ -8,7 +8,7 @@
   {
     "remote": "github",
     "repository": "gzR-Kernels/Optimus_Drunk_Beryllium",
-    "target_path": "kernel/xiaomi/sdm845",
+    "target_path": "kernel/xiaomi/beryllium",
     "branch": "10.0"
   },
   {

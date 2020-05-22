@@ -206,10 +206,12 @@ vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 # FM
 lib64/fm_helium.so
 lib64/libfm-hci.so
+lib64/libfmq.so
 -product/lib64/vendor.qti.hardware.fm@1.0.so
 -product/lib/vendor.qti.hardware.fm@1.0.so
 lib/fm_helium.so
 lib/libfm-hci.so
+lib/libfmq.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 

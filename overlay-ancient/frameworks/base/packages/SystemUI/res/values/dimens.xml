@@ -17,6 +17,6 @@
 -->
 <resources>
     <dimen name="qs_quick_header_panel_height">150dp</dimen>
-    <dimen name="ancient_qsquick_margin">109dp</dimen>
-    <dimen name="ancient_headerimg_size">180dp</dimen>
+    <dimen name="ancient_qsquick_margin">111dp</dimen>
+    <dimen name="ancient_headerimg_size">182dp</dimen>
 </resources>

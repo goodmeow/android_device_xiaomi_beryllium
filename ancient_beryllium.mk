@@ -14,8 +14,8 @@ TARGET_INCLUDE_WIFI_EXT := true
 
 # Ancient
 ANCIENT_OFFICIAL := true
-ANCIENT_NOGAPPS := true
-FORCE_OTA := false
+# ANCIENT_NOGAPPS := true
+# FORCE_OTA := false
 TARGET_GAPPS_ARCH :=arm64
 
 # Device identifier. This must come after all inclusions.

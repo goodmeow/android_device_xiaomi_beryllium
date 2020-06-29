@@ -16,7 +16,10 @@
 */
 -->
 <resources>
-    <!-- How far the quick-quick settings panel extends below the status bar -->
-    <dimen name="qs_quick_header_panel_height">151dp</dimen>
-
+    <!-- Ancient custom dimens -->
+    <dimen name="ancient_qsquick_margin">111dp</dimen>
+    <dimen name="ancient_headerimg_size">182dp</dimen>
+    
+    <!-- Alternate notch margin -->
+    <dimen name="dual_margin_side">20dp</dimen>  
 </resources>

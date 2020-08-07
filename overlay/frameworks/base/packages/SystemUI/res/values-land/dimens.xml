@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <dimen name="qs_quick_header_panel_height">175dp</dimen>
+     <dimen name="qs_panel_padding_top">164dp</dimen>
+     <dimen name="ancient_qs_margintoptop">60dp</dimen>
+</resources>
+
+

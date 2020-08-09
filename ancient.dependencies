@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "gzR-Kernels/Optimus_Drunk_Beryllium",
+    "repository": "gmw-project/android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
-    "branch": "10.0"
+    "branch": "ten-wip"
   },
   {
     "remote": "github",

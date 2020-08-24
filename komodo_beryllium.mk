@@ -5,18 +5,13 @@
 #
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
-#$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_WIFI_EXT := true
-NAD_BUILD_TYPE := OFFICIAL
-USE_PIXEL_CHARGING := true
-
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_beryllium
+PRODUCT_NAME := komodo_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Pocophone F1

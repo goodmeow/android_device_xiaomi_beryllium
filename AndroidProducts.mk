@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_beryllium.mk
+    $(LOCAL_DIR)/komodo_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_beryllium-user \
-    nad_beryllium-userdebug \
-    nad_beryllium-eng
+    komodo_beryllium-user \
+    komodo_beryllium-userdebug \
+    komodo_beryllium-eng

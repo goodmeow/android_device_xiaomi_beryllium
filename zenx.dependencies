@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "NusantaraROM-devices/device_xiaomi_sdm845-common",
+    "repository": "ZenX-Devices/device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "ten-nusantara"
+    "branch": "ten-zenx"
   },
   {
     "remote": "github",
@@ -22,11 +22,5 @@
     "repository": "kdrag0n/proton-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
     "branch": "master"
-  },
-  {
-    "remote": "priv",
-    "repository": "android_packages_apps_NusantaraPapers",
-    "target_path": "packages/apps/NusantaraPapers",
-    "branch": "10"
   }
 ]

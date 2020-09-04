@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_beryllium.mk
+    $(LOCAL_DIR)/zenx_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_beryllium-user \
-    nad_beryllium-userdebug \
-    nad_beryllium-eng
+    zenx_beryllium-user \
+    zenx_beryllium-userdebug \
+    zenx_beryllium-eng

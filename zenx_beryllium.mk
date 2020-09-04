@@ -29,3 +29,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="beryllium" \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)

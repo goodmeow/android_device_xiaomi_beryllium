@@ -12,7 +12,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ZEN_BUILD_TYPE := Beta
 USE_OP_LAUNCHER := true
 WITH_GAPPS := true
-
+WITH_ZENX_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := zenx_beryllium

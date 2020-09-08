@@ -6,21 +6,14 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common zenx stuff.
-$(call inherit-product, vendor/zenx/config/common_full_phone.mk)
-USE_OP_LAUNCHER := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-PRODUCT_PACKAGES += \
-    FaceUnlockService
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
-
-TARGET_INCLUDE_WIFI_EXT :=true
+# Inherit some common komodo stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
+TARGET_INCLUDE_WIFI_EXT := true
+CURRENT_BUILD_TYPE := nogapps
+KOMODO_VARIANT := BETA
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := zenx_beryllium
+PRODUCT_NAME := komodo_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1

@@ -6,13 +6,18 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common nad stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-NAD_BUILD_TYPE := OFFICIAL
-USE_GMS ?= true
+# Inherit some common bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+
+# Inherit Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_beryllium
+PRODUCT_NAME := bliss_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Pocophone F1
